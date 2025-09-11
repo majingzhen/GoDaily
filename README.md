@@ -11,9 +11,12 @@ GoDaily项目包含了各种类型的Go程序，从基础的命令行工具到�
 ```
 GoDaily/
 ├── README.md
-├── 1_todo/           # 第1天：命令行代办事项管理器
+├── 1_todo/                    # 第1天：命令行代办事项管理器
 │   └── todo.go
-└── ...               # 更多日常程序
+├── 2_port_scanner/            # 第2天：端口扫描器
+│   ├── port_scanner.go
+│   └── README.md
+└── ...                        # 更多日常程序
 ```
 
 ## 📚 程序列表
@@ -22,6 +25,26 @@ GoDaily/
 
 一个基于命令行的待办事项管理器，支持添加、列出、删除和完成待办事项。
 
+### Day 2: 端口扫描器 (`2_port_scanner`)
+
+一个高效的多线程端口扫描工具，用于检测目标主机的开放端口。
+
+**功能特性：**
+- 并发扫描，支持自定义并发数量
+- 可配置主机地址、端口范围和超时时间
+- 实时显示扫描结果
+- 性能统计和结果排序
+- 信号量控制防止资源耗尽
+
+**使用方法：**
+```bash
+cd 2_port_scanner
+go run port_scanner.go -host=localhost -start=1 -end=1024
+go build -o port_scanner port_scanner.go
+./port_scanner -host=192.168.1.1 -concurrency=100 -timeout=1000
+```
+
+详细文档：[2_port_scanner/README.md](2_port_scanner/README.md)
 
 ## 🚀 快速开始
 
