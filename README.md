@@ -29,23 +29,6 @@ GoDaily/
 
 一个高效的多线程端口扫描工具，用于检测目标主机的开放端口。
 
-**功能特性：**
-- 并发扫描，支持自定义并发数量
-- 可配置主机地址、端口范围和超时时间
-- 实时显示扫描结果
-- 性能统计和结果排序
-- 信号量控制防止资源耗尽
-
-**使用方法：**
-```bash
-cd 2_port_scanner
-go run port_scanner.go -host=localhost -start=1 -end=1024
-go build -o port_scanner port_scanner.go
-./port_scanner -host=192.168.1.1 -concurrency=100 -timeout=1000
-```
-
-详细文档：[2_port_scanner/README.md](2_port_scanner/README.md)
-
 ## 🚀 快速开始
 
 1. 克隆项目：
