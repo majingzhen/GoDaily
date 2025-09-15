@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+/**
+ * 简单计算器
+ */
+
 // 加法
 func add(a, b float64) float64 {
 	return a + b
