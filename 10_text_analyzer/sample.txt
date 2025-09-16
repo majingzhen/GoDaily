@@ -1,0 +1,29 @@
+Go语言文本分析工具测试文档
+
+这是一个用于测试文本分析工具的示例文档。本文档包含了中文和英文混合内容，用来验证工具的多语言处理能力。
+
+Go language is a powerful programming language developed by Google. It combines the efficiency of compiled languages with the ease of use of interpreted languages.
+
+文本分析是自然语言处理的重要组成部分。通过统计分析，我们可以了解文本的基本特征，包括字符数量、单词频率、句子长度等重要指标。这些信息对于内容创作、文档质量评估以及数据预处理都具有重要意义。
+
+本工具支持以下功能：
+1. 基础统计信息计算
+2. 词频分析和高频词提取  
+3. 文本复杂度评估
+4. 阅读时间预估
+5. 多语言字符类型识别
+
+The tool demonstrates various Go programming concepts including:
+- Struct definitions and methods
+- File I/O operations
+- Regular expressions
+- Unicode handling
+- Command-line argument parsing
+- Sorting algorithms
+
+通过这个实例，我们可以学习到Go语言在文本处理方面的强大能力。Go的标准库提供了丰富的字符串处理、正则表达式、文件操作等功能，使得开发这样的工具变得相对简单。
+
+测试数据包含：数字123、特殊符号@#$%、以及各种标点符号！？。
+这样可以全面测试工具对不同字符类型的识别和统计能力。
+
+希望这个工具能够帮助用户更好地分析和理解文本内容的特征和结构。
